@@ -19,7 +19,7 @@ class Video:
         return f"{self.video_title}"
 
     @property
-    def name(self):
+    def video_id(self):
         return self.__video_id
 
 
@@ -30,5 +30,5 @@ class PLVideo(Video):
         self.__plv_id = plv_id
 
     @property
-    def name(self):
-        return self.__video_id
+    def plv_id(self):
+        return self.__plv_id
